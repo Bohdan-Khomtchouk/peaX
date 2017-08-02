@@ -1,0 +1,8 @@
+citHeader("To cite peaX in publications use:")
+
+citEntry(entry = "Package",
+	title	     = "Human ChIP-seq peaks data from ENCODE and ROADMAP Epigenomics",
+	author	   = personList(as.person("Bohdan Khomtchouk")),
+	year       = "2017",
+	number     = "R package version 0.99.0"
+	)

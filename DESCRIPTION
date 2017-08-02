@@ -1,0 +1,21 @@
+Package: peaX
+Type: Package
+Title: Human ChIP-seq peaks data from ENCODE and ROADMAP Epigenomics
+Version: 0.99.0
+Depends:
+    R (>= 3.3.3)
+Suggests: AnnotationDbi, BiocStyle, geneXtendeR, knitr, rmarkdown
+VignetteBuilder: knitr
+Authors@R: person("Bohdan", "Khomtchouk", email = "khomtchoukmed@gmail.com", role = c("aut", "cre"))
+Maintainer: Bohdan Khomtchouk <khomtchoukmed@gmail.com>
+Description: Provides human transcription factor and histone modification ChIP-seq peaks data from
+    ENCODE and ROADMAP Epigenomics.  Files originally downloaded in bigBed format, converted to BED, 
+    and then tidied up to include only peak coordinates (chromosome number, peak start position, peak end
+    position) in preparation for large-scale functional annotation.
+Citation: Citation (from within R, enter citation("peaX")): Khomtchouk BB (2017). peaX: Human ChIP-seq peaks data from ENCODE and ROADMAP Epigenomics. R package version 0.99.0.
+biocViews: Annotation, DataImport, Genetics, ThirdPartyClient
+URL: https://github.com/Bohdan-Khomtchouk/peaX
+BugReports: https://github.com/Bohdan-Khomtchouk/peaX/issues
+License: MIT
+LazyData: TRUE
+RoxygenNote: 6.0.1

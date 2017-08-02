@@ -1,0 +1,28 @@
+---
+title: "peaX"
+author: "Bohdan B. Khomtchouk"
+date: "`r Sys.Date()`"
+output: rmarkdown::pdf_document
+vignette: >
+  %\VignetteIndexEntry{peaX}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8](inputenc)
+---
+
+`peaX` is a data package that provides human transcription factor and histone modification ChIP-seq peaks data from ENCODE and ROADMAP Epigenomics.
+
+Currently supported ChIP-seq peak lists in the `peaX` package include: 
+
+1) Proximal, distal, and total peak sets for H3K4me1
+2) Proximal, distal, and total peak sets for H3K4me3
+3) Proximal, distal, and total peak sets for H3K9ac
+4) Proximal, distal, and total peak sets for H3K27ac
+5) Proximal, distal, and total peak sets for transcription factors
+
+For more information on a specific organism, please refer to the package documentation, e.g.:
+
+```{r}
+library(peaX)
+?H3K4me3_total
+```
+
