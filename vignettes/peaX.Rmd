@@ -19,7 +19,7 @@ Currently supported ChIP-seq peak lists in the `peaX` package include:
 4) Proximal, distal, and total peak sets for H3K27ac
 5) Proximal, distal, and total peak sets for transcription factors
 
-For more information on a specific organism, please refer to the package documentation, e.g.:
+For more information on a specific ChIP-seq dataset, please refer to the package documentation, e.g.:
 
 ```{r}
 library(peaX)
